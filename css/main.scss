@@ -49,7 +49,6 @@ body {
     grid-area: sect2;
   }
 
-
 h1{
       color: white;
       font-family: 'Poppins', arial;
@@ -66,7 +65,6 @@ h3{
     font-weight: 20;
     margin-left:20%;
 }
-
 
 .grid-container {
     display: grid;
@@ -85,6 +83,7 @@ h3{
     font-size: 30px;
     text-align: center;
   }
+
   .grid-item2 {
     background-color: #492540;
     border: 0px solid rgba(0, 0, 0, 0.8);
@@ -92,6 +91,7 @@ h3{
     font-size: 30px;
     text-align: center;
   }
+
   .grid-item3 {
     background-color: #492540;
     border: 0px solid rgba(0, 0, 0, 0.8);
@@ -99,6 +99,7 @@ h3{
     font-size: 30px;
     text-align: center;
   }
+
   .grid-item4 {
     background-color:  #f6ea8c;
     border: 0px solid rgba(0, 0, 0, 0.8);
@@ -160,12 +161,18 @@ h3{
 
     .subtitle {
         font-size: 30px;
-        margin-top: 30%;
+        margin-top: 20%;
         margin-left: 20%;
+        
     }
     .featured-desc{
         margin-left: 10%;
         margin-left: 20%;
+    }
+    .featured-desc-2 {
+      margin-left: 20%;
+      margin-top:0%;
+      margin-bottom: 10%;
     }
   }
   
@@ -179,10 +186,19 @@ h3{
 
   .socialMediaApp{
     width: 90%;
+    height: 80%;
     margin-top: 10%;
     border-radius: 25px;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     margin-right: 10px;
+}
+
+.socialMediaAppDiv{
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  margin-bottom: 0%;
+  margin-right: 10px;
 }
 
 
@@ -301,7 +317,6 @@ myskills {
   font-size:16px;
   text-decoration: none;
 }
-
 
 .contact-grid {
   display: grid;

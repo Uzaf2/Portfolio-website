@@ -176,13 +176,19 @@ part:nth-of-type(1) p {
 
 part:nth-of-type(1) .subtitle {
   font-size: 30px;
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 20%;
 }
 
 part:nth-of-type(1) .featured-desc {
   margin-left: 10%;
   margin-left: 20%;
+}
+
+part:nth-of-type(1) .featured-desc-2 {
+  margin-left: 20%;
+  margin-top: 0%;
+  margin-bottom: 10%;
 }
 
 part:nth-of-type(2) {
@@ -197,9 +203,18 @@ part:nth-of-type(2) {
 
 .socialMediaApp {
   width: 90%;
+  height: 80%;
   margin-top: 10%;
   border-radius: 25px;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
+  margin-right: 10px;
+}
+
+.socialMediaAppDiv {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  margin-bottom: 0%;
   margin-right: 10px;
 }
 
