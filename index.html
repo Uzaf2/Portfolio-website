@@ -32,6 +32,26 @@
   background-color: white; /* Green */
   color: black;
 }
+
+.buttonOne {
+  background-color:#c03546;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.buttonOne:hover {
+    background-color: white; /* Green */
+  color: black;
+}
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -45,7 +65,11 @@
     <h1 class="title">Web Development Portfolio</h1>
     <h3 class="titledescription"> This website contains the examples of my full stack web development projects made using React JS and others
         associated technologies </h3>
+    <a href="#anchor-name" class="anchor">
+        <button class="buttonOne" type="button">My Projects!</button>
+    </a>
     <img src="images/WebDev.svg" class="img3" alt="UI/UX Icon">
+    
 </section>
 
 <section>
@@ -61,6 +85,7 @@
 
 <pageTwo>
 <part>
+    <a id="anchor-name"></a>
     <p class="subtitle1" id="socialMediaApp">Small Social Media Application</p>
                 <p class="featured-desc">Here in this application you can register yourself and 
                  then login with your credentials to make posts, delete posts. 

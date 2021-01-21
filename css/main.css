@@ -329,6 +329,11 @@ form:nth-of-type(2) {
   margin-right: 10%;
 }
 
+.anchor {
+  margin-left: 20%;
+  margin-top: 70%;
+}
+
 .name {
   margin-left: 50%;
   color: white;
