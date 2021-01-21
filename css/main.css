@@ -174,9 +174,15 @@ part:nth-of-type(1) p {
   font-family: 'Poppins', arial;
 }
 
-part:nth-of-type(1) .subtitle {
+part:nth-of-type(1) .subtitle1 {
   font-size: 30px;
   margin-top: 20%;
+  margin-left: 20%;
+}
+
+part:nth-of-type(1) .subtitle2 {
+  font-size: 30px;
+  margin-top: 10%;
   margin-left: 20%;
 }
 
@@ -449,5 +455,9 @@ textarea {
 
 .submitForm {
   margin-bottom: 13%;
+}
+
+a:link {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
