@@ -335,7 +335,7 @@ form:nth-of-type(2) {
 }
 
 .name {
-  margin-left: 50%;
+  margin-left: 42%;
   color: white;
   font-family: 'Poppins', arial;
   margin-top: 2%;
@@ -464,5 +464,11 @@ textarea {
 
 a:link {
   color: white;
+}
+
+#1, #2 {
+  float: left;
+  width: 49%;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */

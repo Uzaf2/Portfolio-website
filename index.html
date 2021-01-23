@@ -3,12 +3,19 @@
 
 <head>
     <style>
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
     a:link {
         color: #FFFFFF;
         text-decoration: none;
     }
 
-      a:hover {
+    a:hover {
         color: yellow;
         background-color: transparent;
         text-decoration: underline;
@@ -34,10 +41,11 @@
 }
 
 .buttonOne {
+  font-family: 'Poppins', arial;
   background-color:#c03546;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -45,13 +53,40 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
-  margin-left: 20%;
-  margin-top: 10%;
+  margin-left: 7.5%;
+  margin-right: 80%;
+  display:inline-block;
 }
 .buttonOne:hover {
     background-color: white; /* Green */
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
+.hand {
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+    transition: 0.5s;
+    animation: cowmove 3s infinite;   
+    display:inline-block
+}
+
+@keyframes cowmove{
+    0% {
+      transform: translateX(40px) rotateY(0deg);
+    }
+    49% {
+      transform: translateX(10px) rotateY(0deg);
+    }
+    50% {
+      transform: translateX(10px) rotateY(360deg);
+    }
+    100% {
+      transform: translateX(40px) rotateY(360deg);
+    }
+}
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -65,11 +100,12 @@
     <h1 class="title">Web Development Portfolio</h1>
     <h3 class="titledescription"> This website contains the examples of my full stack web development projects made using React JS and others
         associated technologies </h3>
-    <a href="#anchor-name" class="anchor">
-        <button class="buttonOne" type="button">My Projects!</button>
-    </a>
+
+    <div class="container">
+    <img src="images/hand.png" class="hand" id="1" alt="UI/UX Icon">
+    <a href="#anchor-name" class="buttonOne" type="button">Projects</a>
+    </div>
     <img src="images/WebDev.svg" class="img3" alt="UI/UX Icon">
-    
 </section>
 
 <section>
@@ -87,15 +123,15 @@
 <part>
     <a id="anchor-name"></a>
     <p class="subtitle1" id="socialMediaApp">Small Social Media Application</p>
-                <p class="featured-desc">Here in this application you can register yourself and 
-                 then login with your credentials to make posts, delete posts. 
-                You can also and like posts of others as well. It is made using   
-                MERNG stack MongoDB, Express JS, React JS, Node JS and GraphQL</p>
+    <p class="featured-desc">Here in this application you can register yourself and 
+    then login with your credentials to make posts, delete posts. 
+    You can also and like posts of others as well. It is made using   
+    MERNG stack MongoDB, Express JS, React JS, Node JS and GraphQL</p>
 
-                <p class="featured-desc-2">  
-                    <input class="button" type="BUTTON" value="Code" onclick="window.location.href='https://github.com/Uzaf2/Merng-social-media-app'">
-                    <input class="button" type="BUTTON" value="Demo" onclick="window.location.href='https://merng-social-media-application.netlify.app'">
-                    </p>
+    <p class="featured-desc-2">  
+    <input class="button" type="BUTTON" value="Code" onclick="window.location.href='https://github.com/Uzaf2/Merng-social-media-app'">
+    <input class="button" type="BUTTON" value="Demo" onclick="window.location.href='https://merng-social-media-application.netlify.app'">
+    </p>
 </part>
 <part>
     <a href="https://merng-social-media-application.netlify.app">
@@ -106,13 +142,12 @@
 
 <pageTwo>
     <part>
-        <p class="subtitle2">Todos Application</p>
-        <p class="featured-desc">This application is based a simple todos application
-            which helps you track your todos activities </p>
-            <p class="featured-desc-2">
-                <input class="button" type="BUTTON" value="Code" onclick="window.location.href='https://github.com/Uzaf2/Pern-Todos-Application'">
-                <input class="button" type="BUTTON" value="Demo" onclick="window.location.href='https://react-to-dos-application.netlify.app'">
-            </p>
+    <p class="subtitle2">Todos Application</p>
+    <p class="featured-desc">This application is based a simple todos application which helps you track your todos activities built using PERN (PostgreSQL, Express JS, React and Node.js) stack  </p>
+    <p class="featured-desc-2">
+    <input class="button" type="BUTTON" value="Code" onclick="window.location.href='https://github.com/Uzaf2/Pern-Todos-Application'">
+    <input class="button" type="BUTTON" value="Demo" onclick="window.location.href='https://react-to-dos-application.netlify.app'">
+    </p>
     </part>
     <part>
         <a href="https://react-to-dos-application.netlify.app">
