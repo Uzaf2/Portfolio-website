@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   height: 100vh;
   margin: 0%;
+}
+
+.threePage {
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.imageResolution {
+  width: 500px;
+  height: 500px;
 }
 
 pageOne {
@@ -20,7 +31,7 @@ section:nth-of-type(1) {
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: sect1;
-  background-color: #492540;
+  background-color: #2A1B3D;
 }
 
 section:nth-of-type(1) ul {
@@ -93,7 +104,7 @@ h3 {
 }
 
 .grid-item1 {
-  background-color: #c03546;
+  background-color: #D83F87;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -101,7 +112,7 @@ h3 {
 }
 
 .grid-item2 {
-  background-color: #492540;
+  background-color: #2A1B3D;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   font-size: 30px;
@@ -109,7 +120,7 @@ h3 {
 }
 
 .grid-item3 {
-  background-color: #492540;
+  background-color: #2A1B3D;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -117,7 +128,7 @@ h3 {
 }
 
 .grid-item4 {
-  background-color: #f6ea8c;
+  background-color: #A4B3B6;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -152,11 +163,31 @@ pageTwo {
   margin: 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-  grid-template-columns: 50% 50%;
+  -ms-grid-columns: 40% 60%;
+  grid-template-columns: 40% 60%;
   -ms-grid-rows: 100%;
   grid-template-rows: 100%;
       grid-template-areas: "part1 part2 " "part1 part2 ";
+  width: 195vh;
+  height: 100vh;
+}
+
+pageThree {
+  background-color: #FFFFFF;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+pageThree .featured-desc {
+  margin-left: 10%;
+  margin-left: 20%;
+}
+
+pageThree .featured-desc-2 {
+  margin-left: 20%;
+  margin-top: 0%;
+  margin-bottom: 10%;
 }
 
 part:nth-of-type(1) {
@@ -164,7 +195,7 @@ part:nth-of-type(1) {
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: part1;
-  background-color: #f26d5b;
+  background-color: #D83F87;
   width: 100%;
   height: 100%;
 }
@@ -184,11 +215,14 @@ part:nth-of-type(1) .subtitle2 {
   font-size: 30px;
   margin-top: 10%;
   margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 part:nth-of-type(1) .featured-desc {
   margin-left: 10%;
   margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
 }
 
 part:nth-of-type(1) .featured-desc-2 {
@@ -202,7 +236,7 @@ part:nth-of-type(2) {
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
   grid-area: part2;
-  background-color: #f26d5b;
+  background-color: #D83F87;
   width: 100%;
   height: 100%;
 }
@@ -219,14 +253,24 @@ part:nth-of-type(2) {
 .socialMediaAppDiv {
   margin-top: 0%;
   margin-bottom: 10%;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-bottom: 0%;
   margin-right: 10px;
 }
 
+.bugTrackerAppDiv {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  margin-bottom: 0%;
+  margin-right: 10px;
+  width: 90%;
+  height: 70%;
+}
+
 .skillsBody {
-  background-color: #c03546;
-  border: 80px solid #492540;
+  background-color: #D83F87;
+  border: 80px solid #2A1B3D;
 }
 
 .skillsBody p {
@@ -270,7 +314,7 @@ form:nth-of-type(2) {
 }
 
 .grid-container2 {
-  background-color: #492540;
+  background-color: #2A1B3D;
   width: 100%;
   height: 100%;
 }
@@ -289,7 +333,7 @@ form:nth-of-type(2) {
 }
 
 .skills-grid-1 {
-  background-color: #c03546;
+  background-color: #D83F87;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -303,7 +347,7 @@ form:nth-of-type(2) {
 }
 
 .skills-grid-2 {
-  background-color: #492540;
+  background-color: #2A1B3D;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
@@ -369,7 +413,7 @@ form:nth-of-type(2) {
 }
 
 .contact-grid-1 {
-  background-color: #c03546;
+  background-color: #D83F87;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   font-size: 30px;
