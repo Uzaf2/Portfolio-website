@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+
 body {
     height: 100vh;
     margin: 0%;
@@ -18,18 +22,20 @@ body {
 
   pageOne {
     margin: 0;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50% ;
-        grid-template-columns: 50% 50%;
-    -ms-grid-rows: 50% 50%;
-        grid-template-rows: 50% 50%;
-        grid-template-areas: "sect1 sect2 "
-   "sect1 sect2 ";
+    min-height: 100vh;
+    min-width: 120vh;
+
   }
 
+  .buttonOne{
+    margin-left: 10%;
+  }
   /*# sourceMappingURL=main.css.map */
   
+  .hand{
+    margin-left: 0px;
+  }
+
   section:nth-of-type(1){
     grid-area: sect1;
     background-color:#2A1B3D;
@@ -80,8 +86,8 @@ h3{
 
 .grid-container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30% 70%;
     background-color: #2196F3;
     padding: 0px;
     width: 100%;
@@ -155,8 +161,8 @@ h3{
         grid-template-rows: 100%;
         grid-template-areas: "part1 part2 "
    "part1 part2 ";
-   width: 195vh;
-   height:100vh;
+   min-height: 100vh;
+   min-width: 120vh;
   }
 
   pageThree {
@@ -254,6 +260,7 @@ h3{
 }
 
 
+
 .skillsBody{
     background-color:#D83F87;
     border: 80px solid #2A1B3D;
@@ -346,11 +353,41 @@ myskills {
 }
 
 .title {
-  margin-right: 10%;
+  color: white;
+  margin-left: 10%;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  margin-top: 15%;
+  margin-bottom: 1%;
 }
 
 .titledescription {
-  margin-right: 10%;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10%;
+  color: #53DD6C;
+  margin-top: 0%;
+}
+
+.nameTitle{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Pacifico', cursive;
+  padding-left: 10%;
+  color: white;
+  margin-top: 2%;
+}
+
+.titledescription2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10%;
+  color: #53DD6C;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 .anchor{
@@ -358,7 +395,7 @@ myskills {
   margin-top: 70%;
 }
 .name{
-  margin-left:42%;
+  margin-left:10%;
   color: white;
   font-family: 'Poppins', arial;
   margin-top:2%;
@@ -416,7 +453,9 @@ myskills {
 }
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:rgb(30,30,40); }
+body { background:rgb(30,30,40); 
+ 
+}
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {

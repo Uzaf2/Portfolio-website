@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   height: 100vh;
@@ -18,18 +20,18 @@ body {
 
 pageOne {
   margin: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-  grid-template-columns: 50% 50%;
-  -ms-grid-rows: 50% 50%;
-  grid-template-rows: 50% 50%;
-      grid-template-areas: "sect1 sect2 " "sect1 sect2 ";
+  min-height: 100vh;
+  min-width: 120vh;
 }
+
+.buttonOne {
+  margin-left: 10%;
+}
+.hand {
+  margin-left: 0px;
+}
+
 section:nth-of-type(1) {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
   grid-area: sect1;
   background-color: #2A1B3D;
 }
@@ -67,9 +69,6 @@ section:nth-of-type(1) ul li a {
 }
 
 section:nth-of-type(2) {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
   grid-area: sect2;
 }
 
@@ -93,10 +92,10 @@ h3 {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  -ms-grid-rows: 50% 50%;
-      grid-template-rows: 50% 50%;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -ms-grid-rows: 30% 70%;
+      grid-template-rows: 30% 70%;
   background-color: #2196F3;
   padding: 0px;
   width: 100%;
@@ -168,8 +167,8 @@ pageTwo {
   -ms-grid-rows: 100%;
   grid-template-rows: 100%;
       grid-template-areas: "part1 part2 " "part1 part2 ";
-  width: 195vh;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 120vh;
 }
 
 pageThree {
@@ -366,11 +365,41 @@ form:nth-of-type(2) {
 }
 
 .title {
-  margin-right: 10%;
+  color: white;
+  margin-left: 10%;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 550;
+  margin-top: 15%;
+  margin-bottom: 1%;
 }
 
 .titledescription {
-  margin-right: 10%;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10%;
+  color: #53DD6C;
+  margin-top: 0%;
+}
+
+.nameTitle {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Pacifico', cursive;
+  padding-left: 10%;
+  color: white;
+  margin-top: 2%;
+}
+
+.titledescription2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10%;
+  color: #53DD6C;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 .anchor {
@@ -379,7 +408,7 @@ form:nth-of-type(2) {
 }
 
 .name {
-  margin-left: 42%;
+  margin-left: 10%;
   color: white;
   font-family: 'Poppins', arial;
   margin-top: 2%;
