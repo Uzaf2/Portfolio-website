@@ -24,13 +24,12 @@ body {
     margin: 0;
     min-height: 100vh;
     min-width: 120vh;
-    background: 
-      url(./download.png);
+   
   }
 
 
 
-  .buttonOne{
+  .buttonOneProjects{
     margin-left: 10%;
   }
   /*# sourceMappingURL=main.css.map */
@@ -183,8 +182,8 @@ h3{
   }
 
   .pageThree {
-    color: #192BC2;
-    height: 50vh;
+    color: #000122;
+    height: 100vh;
     width: 120vh;
   }
 
@@ -543,12 +542,80 @@ a:link {
   text-align: center;
 }
 
-
 .pageThreeDiv{
+  background-color: #000122;
   height: 70vh;
-  width: 175vh;
-  background-color: #212529;
+}
+
+.pageFour {
+  height: 50vh;
+  width: 120vh;
+}
+
+
+.pageFourDiv{
+  height: 70vh;
+  width: 120vh;
+  background-color: white;
+}
+
+.pageFourTitle{
+  color: black;
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
 }
 
 
 
+.container {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 100%;
+  background-color: #000122;
+  grid-template-areas: 
+    "col1 col2"
+    "col1 col2"
+    "col1 col2";
+  padding-top: 10px;
+  column-gap:5%;
+  justify-content: center;
+  padding-bottom: 20%;
+}
+
+.item-a {
+  width: 100%;
+  height: 100%;
+  grid-area: col1;
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  ul {
+    list-style-position: outside; 
+    padding-left: 30px; 
+    margin-left: 30%;
+    }
+    
+    li { margin-bottom: 15px; 
+    }
+}
+.item-b {
+  width: 100%;
+  height: 100%;
+  grid-area: col2;
+  color: rgb(129, 118, 118);
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+
+  ul {
+    list-style-position: outside; 
+    padding-left: 30px; 
+    margin-left: 30%;
+    }
+    
+    li { margin-bottom: 15px;
+      
+    }
+}

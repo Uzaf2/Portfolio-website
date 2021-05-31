@@ -4,10 +4,11 @@
 <head>
     <style>
     
-    .container {
+    .containerOne {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+
     }
 
     a:link {
@@ -20,6 +21,18 @@
         background-color: transparent;
         text-decoration: underline;
     }
+    .buttonThree {
+      background-color: white;
+  border: 3px solid #192BC2;
+  color: #192BC2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
   .button {
   background-color: white;
@@ -40,10 +53,8 @@
   padding: 18px 40px;
 }
 
-.buttonOne {
+.buttonOneProjects {
   font-family: 'Poppins', arial;
-  background-color:#c03546;
-  border: none;
   color:white;
   padding: 14px 32px;
   text-align: center;
@@ -56,9 +67,8 @@
   margin-right: 80%;
   display:inline-block;
   border: 2px solid white;
-  background-color: #192BC2;
 }
-.buttonOne:hover {
+.buttonOneProjects:hover {
     background-color: white; /* Green */
     text-decoration: none;
     color: green;
@@ -96,18 +106,20 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="owl">
+ 
 <pageOne>
-
+  <div class="owl">
     <p class="nameTitle">Usman Zafar</p>
     <h1 class="title">Full Stack Web Developer</h1>
     <p class="titledescription"> Focused on creating bold, unique, and great experiences that will help your business growth  </p>
 
-    <div class="container">
-    <a href="#anchor-name" class="buttonOne" type="button">Projects</a>
+    <div class="containerOne">
+
+    <a href="#anchor-name"  class="buttonOneProjects" type="button">Projects</a>
     </div>
+  </div>
 </pageOne>
-</div>
+
 <pageTwo>
 <part>
     <a id="anchor-name"></a>
@@ -178,5 +190,51 @@ and Big Data Technologies
 </p>
 </div>
 </pageThree>
+<pageFour>
+<div class="container">
+    <p class="pageFourTitle">
+     Skills
+    </p>
+
+
+    <div class="item-a">
+      Design
+
+    <ul>
+      <li>UI/UX design </li>
+      <li>Wireframing</li>
+      <li>Prototyping</li>
+      <li>User Stories</li>
+      <li>Design Tool Kit</li>
+
+      <li>Moqups</li>
+      <li>Adobe Lightroom</li>
+      <li>Affinity Designer</li>
+      <li>Vectornator</li>
+      <li>GIMP</li>
+    </ul>
+  </div>
+  <div class="item-b">
+    Front End
+
+    <ul>
+      <li>JavaScript</li>
+      <li>JQuery</li>
+      <li>HTML5</li>
+      <li>UCSS3</li>
+      <li>React</li>
+
+      <li>Bootstrap</li>
+      <li>WordPress</li>
+      <li>Back End</li>
+      <li>REST / MySQL</li>
+      <li>Node.js</li>
+      <li>GitHub</li>
+      <li>SCRUM / Agile Methodologies</li>
+    </ul>
+  
+</div>
+</div>
+</pageFour>
 </body>
 </html>
