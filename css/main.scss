@@ -550,22 +550,18 @@ a:link {
 .pageFour {
   height: 50vh;
   width: 120vh;
+  padding: 0;
+  background-color: #000122;
 }
 
-
-.pageFourDiv{
-  height: 70vh;
-  width: 120vh;
-  background-color: white;
-}
 
 .pageFourTitle{
-  color: black;
-  padding-top: 100px;
+  color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
+  background-color: #000122;
 }
 
 
@@ -579,7 +575,7 @@ a:link {
     "col1 col2"
     "col1 col2"
     "col1 col2";
-  padding-top: 10px;
+  padding-top: 5%;
   column-gap:5%;
   justify-content: center;
   padding-bottom: 20%;
@@ -595,7 +591,7 @@ a:link {
   ul {
     list-style-position: outside; 
     padding-left: 30px; 
-    margin-left: 30%;
+    margin-left: 15%;
     }
     
     li { margin-bottom: 15px; 
@@ -605,17 +601,33 @@ a:link {
   width: 100%;
   height: 100%;
   grid-area: col2;
-  color: rgb(129, 118, 118);
+  color: black;
   background-color: white;
   font-family: 'Roboto', sans-serif;
 
   ul {
     list-style-position: outside; 
     padding-left: 30px; 
-    margin-left: 30%;
+    margin-left: 15%;
     }
     
     li { margin-bottom: 15px;
       
     }
+}
+
+.heading {
+  align-items: center;
+  margin-left: 37%;
+  font-weight:700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subHeading {
+  align-items: center;
+  margin-left: 15%;
+  font-weight:700;
+  font-size: 18px;
+  color: #53DD6C;
 }
