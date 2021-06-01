@@ -194,7 +194,6 @@ h3{
     width: 90%;
     height: 70%;
     margin-top: 10%;
-    margin-bottom: 0%;
     margin-right: 10px;
     border: 3px solid black;
 }
@@ -207,17 +206,13 @@ h3{
   border: 2px solid black;
 }
 
-.bugTrackerAppDiv{
+.bugTrackerAppImageDiv{
   margin-top: 0%;
-  margin-bottom: 10%;
-  margin-bottom: 0%;
   margin-right: 10px;
   width: 90%;
-  height: 60%;
+  height: 80%;
   border: 2px solid black;
 }
-
-
 
 .skillsBody{
     background-color:#1181B2;
@@ -630,7 +625,7 @@ pageFive {
       grid-template-rows: 100%;
       grid-template-areas: "element1 element2"
  "element1 element2";
- min-height: 100vh;
+ height: 80vh;
  min-width: 120vh;
 }
 
