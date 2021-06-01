@@ -593,15 +593,15 @@ a:link {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 30%;
-      grid-template-columns: 30% 30%;
+  -ms-grid-columns: 25% 25% 25%;
+      grid-template-columns: 25% 25% 25%;
   -ms-grid-rows: 100%;
       grid-template-rows: 100%;
   background-color: #000122;
-      grid-template-areas: "col1 col2" "col1 col2" "col1 col2";
+      grid-template-areas: "col1 col2 col3" "col1 col2 col3" "col1 col2 col3";
   padding-top: 5%;
-  -webkit-column-gap: 5%;
-          column-gap: 5%;
+  -webkit-column-gap: 2.5%;
+          column-gap: 2.5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -652,11 +652,43 @@ a:link {
   margin-bottom: 15px;
 }
 
+.item-c {
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: col3;
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.item-c ul {
+  list-style-position: outside;
+  padding-left: 30px;
+  margin-left: 15%;
+}
+
+.item-c li {
+  margin-bottom: 15px;
+}
+
 .heading {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-left: 37%;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.heading2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20%;
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 20px;
@@ -670,5 +702,15 @@ a:link {
   font-weight: 700;
   font-size: 18px;
   color: #53DD6C;
+}
+
+.heading3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10%;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
