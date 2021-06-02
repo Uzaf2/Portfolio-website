@@ -153,9 +153,16 @@ h3{
         
     }
 
+    .titleLatestWork {
+      font-size: 50px;
+      margin-top: 10%;
+      margin-left: 20%;
+      color: #192BC2;;
+  }
+  
     .subtitle1 {
         font-size: 30px;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-left: 20%;
         color: black;
     }
@@ -193,8 +200,8 @@ h3{
 
   .socialMediaAppImage{
     width: 90%;
-    height: 80%;
-    margin-top: 10%;
+    height: 70%;
+    margin-top: 22.5%;
     margin-right: 10px;
     border: 3px solid black;
 }
@@ -208,7 +215,7 @@ h3{
 }
 
 .bugTrackerAppImage{
-  margin-top: 0%;
+  margin-top: 5%;
   margin-right: 10px;
   width: 90%;
   height: 90%;
@@ -645,7 +652,7 @@ element:nth-of-type(1){
 
   .subtitle-element-1 {
     font-size: 30px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 20%;
     color: black;
   }

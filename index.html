@@ -32,15 +32,16 @@ body {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
-  color: black;
+  font-size: 50px;
+  color: #192BC2;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #2196F3;
+  color: #192BC2;
   text-decoration: none;
+  font-size: 60px;
 }
 
 .overlay .closebtn {
@@ -48,7 +49,7 @@ body {
   top: 20px;
   right: 45px;
   font-size: 60px;
-  color: black;
+  color:#192BC2;
 }
 
 @media screen and (max-height: 450px) {
@@ -140,6 +141,10 @@ body {
     animation: cowmove 3s infinite;   
     display:inline-block
 }
+.menuButton {
+  font-size:30px;cursor:pointer;float: right;margin-top: 3%; margin-right: 10%;
+  color: white;
+}
 
 @keyframes cowmove{
     0% {
@@ -189,7 +194,7 @@ body {
   </div>
 
   <div class="owl">
-    <span class="hamburgerMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <span class="menuButton" onclick="openNav()">&#9776; Menu</span>
     <p class="nameTitle">Usman Zafar</p>
     <h1 class="title">Full Stack Web Developer</h1>
     <p class="titledescription"> Focused on creating bold, unique, and great experiences that will help your business growth  </p>
@@ -202,7 +207,8 @@ body {
 
 <pageTwo>
 <part>
-    <p class="subtitle1" id="socialMediaApp">Social Media App</p>
+    <p class="titleLatestWork"id="socialMediaApp">Latest Work</p>
+    <p class="subtitle1">Social Media App</p>
     <p class="featured-desc">Simple social media application to help office teammates or friends to make posts,
       like them and comment on them
     </p>

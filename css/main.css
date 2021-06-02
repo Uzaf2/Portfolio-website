@@ -6,6 +6,7 @@
 body {
   height: 100vh;
   margin: 0%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .owl {
@@ -150,9 +151,16 @@ part:nth-of-type(1) p {
   font-family: 'Poppins', arial;
 }
 
+part:nth-of-type(1) .titleLatestWork {
+  font-size: 50px;
+  margin-top: 10%;
+  margin-left: 20%;
+  color: #192BC2;
+}
+
 part:nth-of-type(1) .subtitle1 {
   font-size: 30px;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 20%;
   color: black;
 }
@@ -191,8 +199,8 @@ part:nth-of-type(2) {
 
 .socialMediaAppImage {
   width: 90%;
-  height: 80%;
-  margin-top: 10%;
+  height: 70%;
+  margin-top: 22.5%;
   margin-right: 10px;
   border: 3px solid black;
 }
@@ -206,7 +214,7 @@ part:nth-of-type(2) {
 }
 
 .bugTrackerAppImage {
-  margin-top: 0%;
+  margin-top: 5%;
   margin-right: 10px;
   width: 90%;
   height: 90%;
@@ -686,7 +694,7 @@ element:nth-of-type(1) p {
 
 element:nth-of-type(1) .subtitle-element-1 {
   font-size: 30px;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 20%;
   color: black;
 }
