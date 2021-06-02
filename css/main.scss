@@ -6,6 +6,7 @@
 body {
     height: 100vh;
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
   }
   
   .owl {
@@ -131,7 +132,7 @@ h3{
         grid-template-rows: 100%;
         grid-template-areas: "part1 part2 "
    "part1 part2 ";
-   min-height: 100vh;
+   min-height: 80vh;
    min-width: 120vh;
   }
 
@@ -190,9 +191,9 @@ h3{
     
   }
 
-  .socialMediaApp{
+  .socialMediaAppImage{
     width: 90%;
-    height: 70%;
+    height: 80%;
     margin-top: 10%;
     margin-right: 10px;
     border: 3px solid black;
@@ -206,11 +207,11 @@ h3{
   border: 2px solid black;
 }
 
-.bugTrackerAppImageDiv{
+.bugTrackerAppImage{
   margin-top: 0%;
   margin-right: 10px;
   width: 90%;
-  height: 80%;
+  height: 90%;
   border: 2px solid black;
 }
 
@@ -509,6 +510,7 @@ a:link {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  padding-top: 5%;
   background-color: #000122;
 }
 
@@ -531,7 +533,7 @@ a:link {
 
 .item-a {
   width: 100%;
-  height: 100%;
+  height: 85%;
   grid-area: col1;
   color: black;
   background-color: white;
@@ -542,7 +544,7 @@ a:link {
     margin-left: 15%;
     }
     
-    li { margin-bottom: 15px; 
+    li { margin-bottom: 10px; 
     }
 }
 .item-b {
@@ -559,14 +561,14 @@ a:link {
     margin-left: 15%;
     }
     
-    li { margin-bottom: 15px;
+    li { margin-bottom: 10px;
       
     }
 }
 
 .item-c {
   width: 100%;
-  height: 100%;
+  height: 85%;
   grid-area: col3;
   color: black;
   background-color: white;
@@ -578,7 +580,7 @@ a:link {
     margin-left: 15%;
     }
     
-    li { margin-bottom: 15px;
+    li { margin-bottom: 10px;
       
     }
 }
@@ -625,7 +627,7 @@ pageFive {
       grid-template-rows: 100%;
       grid-template-areas: "element1 element2"
  "element1 element2";
- height: 80vh;
+ height: 75vh;
  min-width: 120vh;
 }
 

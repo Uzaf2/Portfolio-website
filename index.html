@@ -3,7 +3,9 @@
 
 <head>
     <style>
-    
+
+
+
     .containerOne {
       display: flex;
       justify-content: space-between;
@@ -100,6 +102,7 @@
 }
 
     </style>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Document</title>
@@ -108,14 +111,33 @@
 <body>
  
 <pageOne>
+  
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+      <div>
+      </div>
+    </div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="#socialMediaApp">Latest Work</a></li>
+            <li><a href="#pageThreeDivId">About</a></li>
+            <li><a href="#containerId">Skills</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="owl">
     <p class="nameTitle">Usman Zafar</p>
     <h1 class="title">Full Stack Web Developer</h1>
     <p class="titledescription"> Focused on creating bold, unique, and great experiences that will help your business growth  </p>
 
     <div class="containerOne">
-
-    <a href="#anchor-name"  class="buttonOneProjects" type="button">Projects</a>
+    <a href="#socialMediaApp"  class="buttonOneProjects" type="button">Projects</a>
     </div>
   </div>
 </pageOne>
@@ -132,14 +154,14 @@
     <p class="featured-desc"> •  GraphQL / Apollo client</p>
     <p class="featured-desc"> •  MongoDB / Mongoose </p>
 
-    <p class="featured-desc-2">  
+    <p class="featured-desc-2" id="featured-desc-image">  
     <input class="button" type="BUTTON" value="Code" onclick="window.location.href='https://github.com/Uzaf2/merng-social-media-application'">
     <input class="button" type="BUTTON" value="Demo" onclick="window.location.href='https://merng-social-media-application.netlify.app'">
     </p>
 </part>
 <part>
     <a href="https://merng-social-media-application.netlify.app">
-        <img class="socialMediaApp" id="socialMediaApp2" src="images/socialMediaApplication.PNG" alt="Fretastic">
+        <img class="socialMediaAppImage" id="socialMediaApp2" src="images/socialMediaApplication.PNG" alt="Fretastic">
     </a>
 </part>
 </pageTwo>
@@ -160,28 +182,28 @@
 </element>
   <element>
       <a href="https://bugtrackerapplication.netlify.app/">
-      <img class="bugTrackerAppImageDiv" src="images/BugTracker2.png" alt="Fretastic"></a>
+      <img class="bugTrackerAppImage" src="images/BugTracker2.png" alt="Fretastic"></a>
       </element>
 </pageFive>
 
 <pageThree>
-  <div class="pageThreeDiv">
+  <div class="pageThreeDiv" id="pageThreeDivId">
   <p class="pageThreeTitle">
     About Usman Zafar
   </p>
   <p class="paragraph">
-   Usman Zafar is a software engineer with some experience in software engineering gained by working as a software engineer at 
-   Telstra, Database Development, Data Analysis Intern at Monash College and as a Android Developer Intern at Jolta Technologies.
+   I am a software engineer with some experience in software engineering gained by working as a software engineer at 
+   Telstra, Database Development and Data Analysis Intern at Monash College and as a Android Developer Intern at Jolta Technologies.
   </p>
   <p class="paragraph">
-Currently i am focusing on web development with React, Node JS, Express JS and GraphQL. Furthermore, i am also working with CSS, HTML 
+Currently i am focusing on web development with MERN (MongoDB, Express JS, React JS and Node JS) stack of technologies. Furthermore, i am also working with CSS, SASS, HTML 
 and Material UI for creating for front end of web applications.
 </p>
 
 <p class="paragraph">
 
-I have also done a Masters of Information Technology and Bachelors of Computer Science where i have developed skills in Web
-Development using Javascript, Java EE for Enterprise Application Development, Test Driven Development CI/CD (Continous Integration 
+I have also done Masters of Information Technology from Monash University and Bachelors of Computer Science from National University of Computer and Emerging Sciences
+where i have developed skills in Web Development using Javascript, Java EE for Enterprise Application Development, Test Driven Development CI/CD (Continous Integration 
 and Continuous Deployment), Software Engineering and IT Project Management, Android for Mobile Application development and Python for Data Analysis
 and Big Data Technologies
 </p>
@@ -193,7 +215,7 @@ and Big Data Technologies
     <div class="pageFourTitle">
      Skills
     </div>
-    <div class="container">
+    <div class="container" id="containerId">
 
 
     <div class="item-a">
