@@ -4,16 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
-  height: 100vh;
-  margin: 0%;
   font-family: 'Roboto', sans-serif;
 }
 
 .owl {
   min-width: 100%;
   min-height: 100%;
-  top: 50%;
-  bottom: 40%;
   background: url(./download.png);
 }
 
