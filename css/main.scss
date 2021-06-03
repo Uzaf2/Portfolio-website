@@ -10,8 +10,8 @@ body {
   }
   
   .owl {
-    width: 175vh;
-    height: 100vh;
+    min-width: 175vh;
+    min-height: 100vh;
     background: 
       url(./download.png);
   }
@@ -24,8 +24,7 @@ body {
   .pageOne {
     margin: 0;
     min-height: 100vh;
-    min-width: 120vh;
-   
+    min-width: 175vh;
   }
 
   .buttonOneProjects{
