@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
 
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0%;
     font-family: 'Roboto', sans-serif;
   }
@@ -131,8 +131,8 @@ h3{
         grid-template-rows: 100%;
         grid-template-areas: "part1 part2 "
    "part1 part2 ";
-   min-height: 80vh;
-   min-width: 120vh;
+   min-height: 80%;
+   min-width: 100%;
   }
 
   
@@ -499,12 +499,12 @@ a:link {
 
 .pageThreeDiv{
   background-color: #000122;
-  height: 55vh;
+  height: 55%;
 }
 
 .pageFour {
-  height: 50vh;
-  width: 120vh;
+  height: 50%;
+  width: 100%;
   padding: 0;
   background-color: #000122;
 }
@@ -633,8 +633,8 @@ pageFive {
       grid-template-rows: 100%;
       grid-template-areas: "element1 element2"
  "element1 element2";
- height: 75vh;
- min-width: 120vh;
+ height: 75%;
+ min-width: 100%;
 }
 
 element:nth-of-type(1){
