@@ -11,7 +11,7 @@ body {
   
   .owl {
     min-width: 100%;
-    min-height: 120%;
+    min-height: 100%;
     background: 
       url(./download.png);
   }
@@ -23,7 +23,7 @@ body {
 
   .pageOne {
     margin: 0;
-    min-height: 120%;
+    min-height: 100%;
     min-width: 100%;
   }
 
@@ -333,12 +333,14 @@ myskills {
 }
 
 .nameTitle{
+
   font-size: 30px;
   font-weight: 400;
   font-family: 'Pacifico', cursive;
   padding-left: 10%;
   color: white;
   margin-top: 0%;
+  bottom: 50%;
   padding-top: 3%;
 }
 
