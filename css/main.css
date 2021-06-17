@@ -487,22 +487,6 @@ textarea {
   margin-bottom: 13%;
 }
 
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 50px;
-  color: #192BC3;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #192BC2;
-  text-decoration: none;
-  font-size: 60px;
-}
-
 a:link {
   color: white;
 }
